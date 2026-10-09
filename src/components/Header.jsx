@@ -1,13 +1,10 @@
 "use client"
 
-import useFetch from "@/hooks/useFetch";
 import { useEffect, useState } from "react";
 
-export default function Navbar() {
-  const CATAGORIES_API = "https://api.api-store.workers.dev/api/bazardor/categories"
-  const {data, error, loading} = useFetch(CATAGORIES_API)
+export default function Header() {
+  
 
-  console.log(data)
   const [localTime, setLocalTime] = useState("");
 
   useEffect(() => {
