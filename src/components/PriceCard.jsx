@@ -21,7 +21,7 @@ export default function PriceCard({ p }) {
 
   return (
     <Link
-      href={`/products/${p.slug}`}
+      href={`/product/${p.slug}`}
       className="block rounded-2xl bg-white p-3 shadow-sm ring-1 ring-gray-100 transition hover:shadow-md sm:p-4"
     >
       <div className="flex items-center gap-3">

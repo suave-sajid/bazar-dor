@@ -12,7 +12,7 @@ function PriceCard({ p }) {
 
   return (
     <Link
-      href={`/products/${p.slug}`}
+      href={`/product/${p.slug}`}
       className="block rounded-2xl bg-white p-3 shadow-md ring-1 ring-gray-100 transition hover:shadow-lg sm:p-4"
     >
       {/* Top: icon + name + unit */}
