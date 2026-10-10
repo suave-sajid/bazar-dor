@@ -17,7 +17,6 @@ export default function SignUpPage() {
     setError("");
     const form = new FormData(e.currentTarget);
     const { name, email, password } = Object.fromEntries(form.entries());
-    console.log("Form Data:", { name, email, password });
 
     
 
@@ -35,7 +34,6 @@ export default function SignUpPage() {
     const { data, error } = await authClient.signUp.email({ name, email, password });
     setLoading(false);
 
-        console.log("Sign Up Response:", { data, error });
 
 
     if (error) {
