@@ -3,7 +3,8 @@ import useFetch from "@/hooks/useFetch";
 import PriceCard from "./PriceCard";
 
 
-const PRODUCTS_API = "https://api.api-store.workers.dev/api/bazardor/products";
+// const PRODUCTS_API = "https://api.api-store.workers.dev/api/bazardor/products";
+const PRODUCTS_API = "https://openapi.programming-hero.com/api/bazardor/products";
 
 export default function AllProducts() {
   const { data, error, loading } = useFetch(PRODUCTS_API);

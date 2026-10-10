@@ -2,8 +2,10 @@
 import Link from "next/link";
 import useFetch from "@/hooks/useFetch";
 
-const CATEGORIES_API =
-  "https://api.api-store.workers.dev/api/bazardor/categories";
+// const CATEGORIES_API =
+  // "https://api.api-store.workers.dev/api/bazardor/categories";
+    const CATEGORIES_API =
+      "https://openapi.programming-hero.com/api/bazardor/categories";
 
 export default function CategoryNav() {
   const { data, error, loading } = useFetch(CATEGORIES_API);

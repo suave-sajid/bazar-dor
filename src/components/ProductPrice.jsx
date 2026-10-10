@@ -2,7 +2,8 @@
 import Link from "next/link";
 import useFetch from "@/hooks/useFetch";
 
-const PRODUCTS_API = "https://api.api-store.workers.dev/api/bazardor/products";
+// const PRODUCTS_API = "https://api.api-store.workers.dev/api/bazardor/products";
+const PRODUCTS_API = "https://openapi.programming-hero.com/api/bazardor/products";
 
 const UNIT_BN = { kg: "কেজি", litre: "লিটার", dozen: "ডজন", piece: "পিস" };
 const toBn = (n) => Number(n).toLocaleString("bn-BD");

@@ -5,8 +5,10 @@ import { useParams } from "next/navigation";
 import useFetch from "@/hooks/useFetch";
 import PriceCard from "@/components/PriceCard";
 
-const PRODUCTS_API = "https://api.api-store.workers.dev/api/bazardor/products";
-const CATEGORIES_API = "https://api.api-store.workers.dev/api/bazardor/categories";
+// const PRODUCTS_API = "https://api.api-store.workers.dev/api/bazardor/products";
+// const CATEGORIES_API = "https://api.api-store.workers.dev/api/bazardor/categories";
+const PRODUCTS_API = "https://openapi.programming-hero.com/api/bazardor/products";
+const CATEGORIES_API = "https://openapi.programming-hero.com/api/bazardor/categories";
 
 const SORTS = [
   { value: "default", label: "ডিফল্ট" },
