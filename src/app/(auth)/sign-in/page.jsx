@@ -36,9 +36,9 @@ export default function SignInPage() {
     }
 
     toast.success("সফলভাবে লগইন হয়েছে");
-    router.push("/");
+    window.location.href = "/";
     formEl.reset();
-    router.refresh();
+
   };
 
   return (
