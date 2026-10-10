@@ -34,6 +34,9 @@ export default function SocialButtons() {
       <button type="button" onClick={() => social("google")} className={btn}>
         <span className="font-bold text-red-500">G</span> Google দিয়ে চালিয়ে যান
       </button>
+      <button type="button" onClick={() => social("github")} className={btn}>
+        <span className="font-bold text-green-500">G</span> Github দিয়ে চালিয়ে যান
+      </button>
 
     </div>
   );

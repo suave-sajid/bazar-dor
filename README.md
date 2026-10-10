@@ -30,27 +30,27 @@
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-1. **📊 Live Price Overview**
+1. ** Live Price Overview**
    A home page with a scrolling price ticker, a hero banner with today's date in Bangla, and sections for the **Top 6 price risers ▲** and **Top 6 fallers ▼**, plus a full "সব পণ্য" grid with Bangla digits and change badges.
 
-2. **🗂️ Category Browsing & Sorting**
+2. ** Category Browsing & Sorting**
    A scrollable category navbar (চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম-দুধ, মসলা) leads to category pages with sorting by price (low to high / high to low), skeleton loaders, and a friendly empty state.
 
-3. **🏪 Market-wise Product Details**
+3. ** Market-wise Product Details**
    Each product page shows the minimum, maximum and average price, plus today's price in each bazar grouped by division, with a visual price-range bar for every market.
 
-4. **🔐 Secure Authentication**
+4. ** Secure Authentication**
    Email/password sign up and sign in, Google and GitHub social login, protected routes via `proxy.js`, a profile dropdown, and a profile page where users can edit their name and upload a profile photo.
 
-5. **📱 Responsive & Friendly UX**
+5. ** Responsive & Friendly UX**
    Fully responsive on mobile, tablet and desktop, with toast notifications for login, signup, logout and validation errors, loading skeletons, and a custom 404 page with a "হোম পেজে ফিরে যান" button.
 
 ---
 
 
-## 📝 Note
+##  Note
 
 All prices are indicative and may vary with market conditions.
 *সকল দাম সম্ভাব্য; বাজার অবস্থার ওপর নির্ভর করে পরিবর্তিত হয়।*
@@ -59,6 +59,6 @@ All prices are indicative and may vary with market conditions.
 
 <div align="center">
 
-Made with ❤️ for Bangladesh 🇧🇩
+Made with pgHeroTeam  for Bangladesh 🇧🇩
 
 </div>
