@@ -13,6 +13,7 @@ export default function SignInPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const formEl = e.currentTarget;
     setError("");
     const form = new FormData(e.currentTarget);
     const { email, password } = Object.fromEntries(form.entries());
@@ -36,6 +37,7 @@ export default function SignInPage() {
 
     toast.success("সফলভাবে লগইন হয়েছে");
     router.push("/");
+    formEl.reset();
     router.refresh();
   };
 

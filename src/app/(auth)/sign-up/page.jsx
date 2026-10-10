@@ -13,6 +13,7 @@ export default function SignUpPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const formEl = e.currentTarget;
     setError("");
     const form = new FormData(e.currentTarget);
     const { name, email, password } = Object.fromEntries(form.entries());
@@ -45,6 +46,7 @@ export default function SignUpPage() {
 
     toast.success("রেজিস্ট্রেশন সফল! এখন লগইন করুন");
     router.push("/sign-in");
+    formEl.reset();
   };
 
   return (

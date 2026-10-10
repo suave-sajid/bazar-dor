@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import AuthButtons from "./AuthButtons";
 
 export default function Header() {
   
@@ -32,14 +33,7 @@ export default function Header() {
         </div>
 
         {/* Right: Auth buttons */}
-        <div className="flex items-center gap-3">
-          <Link href="/sign-in" className="rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition hover:bg-gray-100">
-            সাইন ইন
-          </Link>
-          <Link href="/sign-up" className="rounded-lg bg-green-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-green-700">
-            সাইন আপ
-          </Link>
-        </div>
+        <AuthButtons />
       </div>
     </nav>
   );
