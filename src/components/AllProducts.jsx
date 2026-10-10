@@ -9,7 +9,7 @@ export default function AllProducts() {
   const { data, error, loading } = useFetch(PRODUCTS_API);
 
   return (
-    <section className="container mx-auto px-3 pb-10 sm:px-4">
+    <section id="all-products" className="container mx-auto px-3 pb-10 sm:px-4">
       <h2 className="text-lg font-bold text-gray-900 sm:text-xl">সব পণ্য</h2>
       <p className="mb-4 text-xs text-gray-500">
         {data

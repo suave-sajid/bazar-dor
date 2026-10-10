@@ -42,12 +42,12 @@ export default function Hero() {
                             জায়গায়।
                         </p>
 
-                        <Link
-                            href="/products"
+                        <a
+                            href="#all-products"
                             className="mt-5 inline-block rounded-lg bg-green-700 px-5 py-2.5 text-sm font-semibold text-white shadow transition hover:bg-green-800"
                         >
                             সব দাম দেখুন
-                        </Link>
+                        </a>
                     </div>
 
                     {/* Right: illustration */}
