@@ -9,13 +9,13 @@
 
 ---
 
-## 📖 About
+##  About
 
 **BazarDor (বাজার দর)** is a fully Bangla web application that helps people track the daily prices of essential goods such as rice, lentils, oil, vegetables, fish, meat, eggs, milk and spices. Prices are shown market by market across divisions, with daily change indicators, so shoppers can quickly see what got more expensive, what got cheaper, and where to buy.
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 | Layer | Technology |
 |---|---|
